@@ -6,12 +6,26 @@ namespace WebApp.Controllers
     {
         public IActionResult Index()
         {
+           
             return View();
         }
-
-        public IActionResult Edit(int id)
+       
+        public IActionResult Edit(int? id)
         {
-            return new ContentResult();
+            if (!id.HasValue)
+            {
+                return new ContentResult
+                {
+                    Content = id.ToString()
+                };
+            }
+            else
+            {
+                return new ContentResult
+                {
+                    Content = "null content"
+                };
+            }
         }
     }
 }

@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,14 +53,14 @@
               "RelativeDocumentMoniker": "WebApp\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T18:21:17.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
@@ -68,12 +68,11 @@
               "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-21T18:11:34.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T18:11:34.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\HomeController.cs",
@@ -81,12 +80,11 @@
               "RelativeToolTip": "WebApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T18:01:11.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T18:01:11.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
