@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T18:09:22.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T18:08:04.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T17:48:14.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T17:47:30.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

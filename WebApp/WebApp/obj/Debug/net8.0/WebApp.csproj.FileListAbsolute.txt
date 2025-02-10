@@ -26,3 +26,4 @@ C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\ref\WebApp.dll
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
