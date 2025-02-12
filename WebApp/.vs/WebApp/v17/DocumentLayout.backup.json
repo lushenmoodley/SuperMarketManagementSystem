@@ -47,12 +47,11 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T18:08:04.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T18:08:04.982Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T17:48:14.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T17:48:14.314Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "WebApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T17:47:30.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T17:47:30.673Z"
             }
           ]
         }
