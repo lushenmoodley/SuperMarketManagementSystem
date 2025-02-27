@@ -1,0 +1,7 @@
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\SupermarketManagementSystem.exe
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\SupermarketManagementSystem.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\SupermarketManagementSystem.deps.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\SupermarketManagementSystem.runtimeconfig.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Release\net8.0\PubTmp\Out\SupermarketManagementSystem.pdb
