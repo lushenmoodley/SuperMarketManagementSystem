@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oBDUMP/TbhE=",
+  "dgSpecHash": "0nRFKt3cRag=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\SupermarketManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lushe\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\lushe\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
