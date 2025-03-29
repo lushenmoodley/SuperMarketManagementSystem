@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OktBGZOcITpfQdqAeqWYritVtoYQH+drA0rlLh3RBeo=",
+  "Hash": "tyq0yMawdiIcFV3yIOHulx5JFgoyo3HXVxscyEPJXfA=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -939,6 +939,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8n3sv7x3hx",
+      "Integrity": "dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     }
   ],
   "Endpoints": [
@@ -4547,6 +4568,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.8n3sv7x3hx.css",
+      "AssetFile": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8n3sv7x3hx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
         }
       ]
     }

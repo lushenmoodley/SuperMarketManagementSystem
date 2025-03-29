@@ -177,6 +177,10 @@
       "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

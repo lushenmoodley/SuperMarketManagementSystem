@@ -16,8 +16,14 @@ namespace WebApp.Models
 
         public static void AddCategory(Category category)
         {
-            var maxId = _categories.Max(x => x.CategoryId);
-            category.CategoryId = maxId+ 1;
+            if (_categories != null && _categories.Count > 1)
+            {
+                var maxId = _categories.Max(x => x.CategoryId);
+                category.CategoryId = maxId + 1;
+                
+            }
+
+            if (_categories == null) _categories = new List<Category>();
             _categories.Add(category);
         }
 

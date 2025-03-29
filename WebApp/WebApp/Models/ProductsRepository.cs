@@ -1,4 +1,5 @@
-﻿using WebApp.Controllers;
+﻿using AspNetCoreGeneratedDocument;
+using WebApp.Controllers;
 using WebApp.Models;
 
 namespace SupermarketManagementSystem.Models
@@ -15,9 +16,20 @@ namespace SupermarketManagementSystem.Models
 
         public static void AddProduct(Product product)
         {
-            var maxId = _products.Max(x => x.ProductId);
-            product.ProductId = maxId + 1;
-            _products.Add(product);
+            
+            if(_products!=null && _products.Count>0)
+            {
+                var maxId = _products.Max(x => x.ProductId);
+                product.ProductId = maxId + 1;
+            }
+            else
+            {
+                product.ProductId = 1;
+            }
+
+            if (product == null) _products = new List<Product>();
+
+                _products.Add(product);
         }
 
         public static List<Product> GetProducts(bool loadCategory=false)
@@ -86,6 +98,20 @@ namespace SupermarketManagementSystem.Models
             if (product != null)
             {
                 _products.Remove(product);
+            }
+        }
+    
+        public static List<Product> GetProductsByCategoryId(int categoryId)
+        {
+            var products = _products.Where(x => x.Categoryid == categoryId);
+
+            if(products!=null)
+            {
+                return products.ToList();
+            }
+            else
+            {
+                return new List<Product>();
             }
         }
     }

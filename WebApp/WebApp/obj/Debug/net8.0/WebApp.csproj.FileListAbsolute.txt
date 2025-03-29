@@ -1,3 +1,11 @@
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfoInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\appsettings.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
@@ -7,14 +15,6 @@ C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\WebApp.runtimeconfig.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\WebApp.dll
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\bin\Debug\net8.0\WebApp.pdb
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfoInputs.cache
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfo.cs
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.csproj.CoreCompileInputs.cache
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\scopedcss\bundle\WebApp.styles.css
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\WebApp\obj\Debug\net8.0\staticwebassets.development.json

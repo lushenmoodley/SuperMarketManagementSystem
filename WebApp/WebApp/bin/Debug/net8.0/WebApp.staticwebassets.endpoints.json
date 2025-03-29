@@ -3609,6 +3609,88 @@
           "Value": "bootstrap/js/bootstrap.js"
         }
       ]
+    },
+    {
+      "Route": "css/site.8n3sv7x3hx.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8n3sv7x3hx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
+        }
+      ]
     }
   ]
 }
