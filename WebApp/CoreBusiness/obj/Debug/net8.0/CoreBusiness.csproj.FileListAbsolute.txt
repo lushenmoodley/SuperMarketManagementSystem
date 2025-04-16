@@ -1,0 +1,12 @@
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\bin\Debug\net8.0\CoreBusiness.deps.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.AssemblyInfoInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.AssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.csproj.CoreCompileInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.sourcelink.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\refint\CoreBusiness.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\CoreBusiness.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\CoreBusiness\obj\Debug\net8.0\ref\CoreBusiness.dll

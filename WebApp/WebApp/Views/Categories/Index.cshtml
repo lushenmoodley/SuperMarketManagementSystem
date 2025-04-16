@@ -1,4 +1,4 @@
-﻿@model List<Category>
+﻿@model List<CoreBusiness.Category>
 @section title {
 <h1>Categories</h1>
 }
@@ -32,8 +32,10 @@
         </tbody>
     </table>
     <br/>
-    <a class="btn btn-primary" asp-controller="categories" asp-action="add">Add</a>
+    
 }
+
+<a class="btn btn-primary" asp-controller="categories" asp-action="add">Add</a>
 
 @section Scripts{
     <script>

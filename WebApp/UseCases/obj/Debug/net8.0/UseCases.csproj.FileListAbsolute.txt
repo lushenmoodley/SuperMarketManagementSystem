@@ -1,0 +1,16 @@
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\bin\Debug\net8.0\UseCases.deps.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\bin\Debug\net8.0\UseCases.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\bin\Debug\net8.0\UseCases.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.csproj.AssemblyReference.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfoInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfo.cs
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.csproj.CoreCompileInputs.cache
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.sourcelink.json
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.csproj.Up2Date
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\refint\UseCases.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\UseCases.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\UseCases\obj\Debug\net8.0\ref\UseCases.dll

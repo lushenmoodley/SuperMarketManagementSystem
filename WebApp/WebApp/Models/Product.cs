@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using WebApp.Models;
 
 namespace SupermarketManagementSystem.Models
 {
@@ -21,6 +22,7 @@ namespace SupermarketManagementSystem.Models
         [Range(0, int.MaxValue)]
         public double? Price { get; set; }
 
+        public Category? Category { get; set; }
 
 
 
