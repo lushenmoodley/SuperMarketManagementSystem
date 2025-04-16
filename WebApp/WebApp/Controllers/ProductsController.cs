@@ -7,8 +7,6 @@ namespace SupermarketManagementSystem.Controllers
 {
     public class ProductsController : Controller
     {
-
-
         public IActionResult Index()
         {
             var products = ProductsRepository.GetProducts(loadCategory:true);
@@ -29,13 +27,14 @@ namespace SupermarketManagementSystem.Controllers
         [HttpPost]
         public IActionResult Add(ProductViewModel productViewModel)
         {
-           
-
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
+
+
                 ProductsRepository.AddProduct(productViewModel.Product);
                 return RedirectToAction(nameof(Index));
             }
+          
             ViewBag.Action = "Add";
             productViewModel.Categories = CategoriesRepository.GetCategories();
             return View(productViewModel);
@@ -60,6 +59,7 @@ namespace SupermarketManagementSystem.Controllers
                 ProductsRepository.UpdateProduct(productViewModel.Product.ProductId, productViewModel.Product);
                 return RedirectToAction(nameof(Index));
             }
+            
             ViewBag.Action = "Edit";
             productViewModel.Categories = CategoriesRepository.GetCategories();
             return View(productViewModel);

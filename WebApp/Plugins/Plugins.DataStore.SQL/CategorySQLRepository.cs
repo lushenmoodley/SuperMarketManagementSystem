@@ -47,9 +47,7 @@ namespace Plugins.DataStore.SQL
         }
 
         public void UpdateCategory(int categoryId, Category category)
-        {
-            if (category.CategoryId != category.CategoryId) 
-                return;
+        {         
 
             var cat = db.Categories.Find(categoryId);
             
