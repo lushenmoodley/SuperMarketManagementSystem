@@ -1,0 +1,9 @@
+﻿@model ProductViewModel
+@section title {
+    <h3>Product:@Model.Product?.Name</h3>
+}
+
+@if(Model!=null)
+{
+    <partial name="_Product" model="Model"/>
+}
