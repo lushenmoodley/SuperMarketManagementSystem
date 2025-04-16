@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UseCases.CategoriesUseCases;
 using UseCases.DataStorePluginInterfaces;
 
 namespace UseCases.CategoriesUsesCases
 {
-    public class EditCategoryUseCase
+    public class EditCategoryUseCase: IEditCategoryUseCase
     {
         private readonly ICategoryRepository categoryRepository;
 
@@ -16,8 +17,6 @@ namespace UseCases.CategoriesUsesCases
         {
             this.categoryRepository = categoryRepository;
         }
-
-
 
         public void Execute(int categoryId,Category category)
         {

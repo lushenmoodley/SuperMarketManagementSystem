@@ -3,7 +3,9 @@ C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\Plugins.DataStore.SQL.dll
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\Plugins.DataStore.SQL.pdb
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\UseCases.dll
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\UseCases.pdb
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\Plugins.DataStore.SQL.csproj.AssemblyReference.cache
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\Plugins.DataStore.SQL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\Plugins.DataStore.SQL.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@ C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\Plugins.DataStore.SQL.pdb
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\Plugins.DataStore.SQL.genruntimeconfig.cache
 C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\obj\Debug\net8.0\ref\Plugins.DataStore.SQL.dll
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\UseCases.dll
-C:\Users\lushe\OneDrive\Documents\C# Projects\SuperMarketManagementSystem\WebApp\Plugins\Plugins.DataStore.SQL\bin\Debug\net8.0\UseCases.pdb

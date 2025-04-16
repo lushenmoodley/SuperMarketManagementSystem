@@ -9,7 +9,7 @@ using UseCases.Interfaces;
 
 namespace UseCases.CategoriesUsesCases
 {
-    public class ViewSelectedCategoryUsesCase 
+    public class ViewSelectedCategoryUsesCase: IViewSelectedCategoryUseCase
     {
         private readonly ICategoryRepository categoryRepository;
 

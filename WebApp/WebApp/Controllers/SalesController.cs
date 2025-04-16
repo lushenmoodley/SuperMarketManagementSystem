@@ -27,8 +27,7 @@ namespace WebApp.Controllers
         
         public IActionResult Sell(SalesViewModel salesViewModel)
         {
-            if(ModelState.IsValid)
-            {
+           
                 var prod = ProductsRepository.GetProductById(salesViewModel.SelectedProductId);
 
                 if(prod!=null)
@@ -41,7 +40,7 @@ namespace WebApp.Controllers
                 }
 
 
-            }
+            
 
             var product = ProductsRepository.GetProductById(salesViewModel.SelectedProductId);
 

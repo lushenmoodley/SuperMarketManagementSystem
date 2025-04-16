@@ -1,71 +1,96 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UseCases.DataStorePluginInterfaces;
 using UseCases.Interfaces;
-using WebApp.Models;
+using CoreBusiness;
+using UseCases.CategoriesUsesCases;
+using UseCases.CategoriesUseCases;
 
 namespace WebApp.Controllers
 {
     public class CategoriesController : Controller
     {
+        private readonly IViewCategoriesUseCase viewCategoriesUseCase;
+        private readonly IViewSelectedCategoryUseCase viewSelectedCategoryUseCase;
+        private readonly IEditCategoryUseCase editCategoryUseCase;
+        private readonly IAddCategoryUseCase addCategoryUseCase;
+        private readonly IDeleteCategoryUseCase deleteCategoryUseCase;
 
-        private readonly IViewCategoriesUseCase viewCategoriesUse;
-
-        public CategoriesController(IViewCategoriesUseCase viewCategoriesUseCase)
+        public CategoriesController(
+            IViewCategoriesUseCase viewCategoriesUseCase,
+            IViewSelectedCategoryUseCase viewSelectedCategoryUseCase,
+            IEditCategoryUseCase editCategoryUseCase,
+            IAddCategoryUseCase addCategoryUseCase,
+            IDeleteCategoryUseCase deleteCategoryUseCase)
         {
-            this.viewCategoriesUse = viewCategoriesUseCase;
+            this.viewCategoriesUseCase = viewCategoriesUseCase;
+            this.viewSelectedCategoryUseCase = viewSelectedCategoryUseCase;
+            this.editCategoryUseCase = editCategoryUseCase;
+            this.addCategoryUseCase = addCategoryUseCase;
+            this.deleteCategoryUseCase = deleteCategoryUseCase;
         }
-
 
         public IActionResult Index()
         {
-            var categories = viewCategoriesUse.Execute();
+            var categories = viewCategoriesUseCase.Execute();
             return View(categories);
         }
 
-        [HttpGet]
         public IActionResult Edit(int? id)
         {
+            
             ViewBag.Action = "edit";
-            var category=CategoriesRepository.GetCategoryById(id.HasValue?id.Value:0);
+
+            var category = viewSelectedCategoryUseCase.Execute(id.HasValue ? id.Value : 0);
+
             return View(category);
         }
 
         [HttpPost]
         public IActionResult Edit(Category category)
         {
+            ModelState.Remove(nameof(category.Products));
+
             if (ModelState.IsValid)
             {
-                CategoriesRepository.UpdateCategory(category.CategoryId, category);
+
+                editCategoryUseCase.Execute(category.CategoryId, category);
+                ViewBag.Action = "edit";
                 return RedirectToAction(nameof(Index));
             }
 
+            ViewBag.Action = "edit";
             return View(category);
         }
 
         public IActionResult Add()
         {
             ViewBag.Action = "add";
+
             return View();
         }
 
         [HttpPost]
         public IActionResult Add(Category category)
         {
-            if(ModelState.IsValid)
+            ModelState.Remove(nameof(category.Products)); 
+            ModelState.Remove(nameof(category.CategoryId));
+
+            if (ModelState.IsValid)
             {
-                CategoriesRepository.AddCategory(category);
+                addCategoryUseCase.Execute(category);
+                ViewBag.Action = "add";
                 return RedirectToAction(nameof(Index));
             }
 
+            ViewBag.Action = "add";
             return View(category);
         }
-    
+
         public IActionResult Delete(int categoryId)
         {
-            CategoriesRepository.DeleteCategory(categoryId);
+            deleteCategoryUseCase.Execute(categoryId);
             return RedirectToAction(nameof(Index));
-        
-        
         }
-    
+
     }
 }
