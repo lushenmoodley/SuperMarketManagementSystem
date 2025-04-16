@@ -49,9 +49,7 @@ namespace WebApp.Models
 
         public static void UpdateCategory(int categoryId, Category category)
         {
-            if (category.CategoryId == categoryId)
-                return;
-
+         
             var categoryToUpdate = GetCategoryById(categoryId);
 
             if (categoryToUpdate != null)

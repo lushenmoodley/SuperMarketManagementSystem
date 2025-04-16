@@ -1,13 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UseCases.Interfaces;
 using WebApp.Models;
 
 namespace WebApp.Controllers
 {
     public class CategoriesController : Controller
     {
+
+        private readonly IViewCategoriesUseCase viewCategoriesUse;
+
+        public CategoriesController(IViewCategoriesUseCase viewCategoriesUseCase)
+        {
+            this.viewCategoriesUse = viewCategoriesUseCase;
+        }
+
+
         public IActionResult Index()
         {
-            var categories = CategoriesRepository.GetCategories();
+            var categories = viewCategoriesUse.Execute();
             return View(categories);
         }
 

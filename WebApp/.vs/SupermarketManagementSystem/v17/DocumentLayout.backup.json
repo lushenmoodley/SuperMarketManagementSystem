@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\viewmodels\\validations\\salesviewmodel_ensurepropertyquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\validations\\salesviewmodel_ensurepropertyquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52A47378-0CE1-48A5-B32B-74D2BDAE2B8D}|Plugin.DataStore.InMemory\\Plugin.DataStore.InMemory.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\plugin.datastore.inmemory\\categoriesinmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52A47378-0CE1-48A5-B32B-74D2BDAE2B8D}|Plugin.DataStore.InMemory\\Plugin.DataStore.InMemory.csproj|solutionrelative:plugin.datastore.inmemory\\categoriesinmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\models\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\plugins\\plugins.datastore.sql\\categorysqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|solutionrelative:plugins\\plugins.datastore.sql\\categorysqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\sales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\viewmodels\\salesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\viewmodels\\salesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\products\\_product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA9F44-5FC2-4C13-8051-CD0C35C73B75}|UseCases\\UseCases.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\usecases\\datastoreplugininterfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA9F44-5FC2-4C13-8051-CD0C35C73B75}|UseCases\\UseCases.csproj|solutionrelative:usecases\\datastoreplugininterfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\plugins\\plugins.datastore.sql\\transactionsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|solutionrelative:plugins\\plugins.datastore.sql\\transactionsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\products\\_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\products\\_products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{64DA9F44-5FC2-4C13-8051-CD0C35C73B75}|UseCases\\UseCases.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\usecases\\datastoreplugininterfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64DA9F44-5FC2-4C13-8051-CD0C35C73B75}|UseCases\\UseCases.csproj|solutionrelative:usecases\\datastoreplugininterfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\views\\sales\\_sellproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\sales\\_sellproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\plugins\\plugins.datastore.sql\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70226E72-91AA-49F5-BB5E-440CD266A37A}|Plugins\\Plugins.DataStore.SQL\\Plugins.DataStore.SQL.csproj|solutionrelative:plugins\\plugins.datastore.sql\\productsqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|c:\\users\\lushe\\onedrive\\documents\\c# projects\\supermarketmanagementsystem\\webapp\\webapp\\models\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4720F81-B7B4-455E-A874-E6E74C8F7D7E}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,143 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\TransactionRepository.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\TransactionRepository.cs",
-              "RelativeToolTip": "WebApp\\Models\\TransactionRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T04:41:18.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\ProductsRepository.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\ProductsRepository.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\ProductsRepository.cs",
-              "RelativeToolTip": "WebApp\\Models\\ProductsRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAASwDkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T01:25:50.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_SellProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Sales\\_SellProduct.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Sales\\_SellProduct.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Sales\\_SellProduct.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Sales\\_SellProduct.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:32:59.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\SalesController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\SalesController.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\SalesController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAtwC0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T01:30:42.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SalesViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\ViewModels\\SalesViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\SalesViewModel.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\ViewModels\\SalesViewModel.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\SalesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T07:26:40.161Z"
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\appsettings.Development.json",
+              "RelativeToolTip": "WebApp\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T06:16:48.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SalesViewModel_EnsurePropertyQuantity.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\ViewModels\\Validations\\SalesViewModel_EnsurePropertyQuantity.cs",
-              "RelativeDocumentMoniker": "WebApp\\ViewModels\\Validations\\SalesViewModel_EnsurePropertyQuantity.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\ViewModels\\Validations\\SalesViewModel_EnsurePropertyQuantity.cs",
-              "RelativeToolTip": "WebApp\\ViewModels\\Validations\\SalesViewModel_EnsurePropertyQuantity.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAEwBwAAAAWAAAAAAAAAA==",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T09:28:11.015Z",
+              "WhenOpened": "2025-04-16T03:12:50.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesInMemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugin.DataStore.InMemory\\CategoriesInMemoryRepository.cs",
+              "RelativeDocumentMoniker": "Plugin.DataStore.InMemory\\CategoriesInMemoryRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugin.DataStore.InMemory\\CategoriesInMemoryRepository.cs",
+              "RelativeToolTip": "Plugin.DataStore.InMemory\\CategoriesInMemoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T03:12:50.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_Product.cshtml",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\_Product.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Products\\_Product.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\_Product.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Products\\_Product.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwFIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:52:11.892Z"
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\UseCases\\DataStorePluginInterfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "UseCases\\DataStorePluginInterfaces\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\UseCases\\DataStorePluginInterfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "UseCases\\DataStorePluginInterfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:06:08.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\TransactionSQLRepository.cs",
+              "RelativeDocumentMoniker": "Plugins\\Plugins.DataStore.SQL\\TransactionSQLRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\TransactionSQLRepository.cs",
+              "RelativeToolTip": "Plugins\\Plugins.DataStore.SQL\\TransactionSQLRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:56:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\UseCases\\DataStorePluginInterfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "UseCases\\DataStorePluginInterfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\UseCases\\DataStorePluginInterfaces\\IProductRepository.cs",
+              "RelativeToolTip": "UseCases\\DataStorePluginInterfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:40:11.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductSQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\ProductSQLRepository.cs",
+              "RelativeDocumentMoniker": "Plugins\\Plugins.DataStore.SQL\\ProductSQLRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\ProductSQLRepository.cs",
+              "RelativeToolTip": "Plugins\\Plugins.DataStore.SQL\\ProductSQLRepository.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:37:05.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategorySQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\CategorySQLRepository.cs",
+              "RelativeDocumentMoniker": "Plugins\\Plugins.DataStore.SQL\\CategorySQLRepository.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\CategorySQLRepository.cs",
+              "RelativeToolTip": "Plugins\\Plugins.DataStore.SQL\\CategorySQLRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:02:47.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250416031837_init.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs",
+              "RelativeDocumentMoniker": "Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs",
+              "RelativeToolTip": "Plugins\\Plugins.DataStore.SQL\\Migrations\\20250416031837_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T03:18:37.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Models\\Transaction.cs",
-              "RelativeToolTip": "WebApp\\Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T05:32:21.465Z",
+              "WhenOpened": "2025-04-16T03:14:43.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Sales\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Sales\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Sales\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Sales\\Index.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T08:32:38.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T08:40:25.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Products.cshtml",
-              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\_Products.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Products\\_Products.cshtml",
-              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\Views\\Products\\_Products.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Products\\_Products.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T01:25:23.777Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\appsettings.json",
+              "RelativeToolTip": "WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T03:14:41.239Z",
+              "EditorCaption": ""
             }
           ]
         }

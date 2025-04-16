@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tyq0yMawdiIcFV3yIOHulx5JFgoyo3HXVxscyEPJXfA=",
+  "Hash": "2VmJCpgq5VmVGkJuAcXfxK5wMabcq0j7VMvew6HrcPs=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -955,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8n3sv7x3hx",
-      "Integrity": "dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=",
+      "Fingerprint": "55llgsehnk",
+      "Integrity": "SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4572,7 +4572,7 @@
       ]
     },
     {
-      "Route": "css/site.8n3sv7x3hx.css",
+      "Route": "css/site.55llgsehnk.css",
       "AssetFile": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4582,7 +4582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54"
+          "Value": "275"
         },
         {
           "Name": "Content-Type",
@@ -4590,11 +4590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+          "Value": "\"SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+          "Value": "Mon, 14 Apr 2025 17:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4604,7 +4604,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8n3sv7x3hx"
+          "Value": "55llgsehnk"
         },
         {
           "Name": "label",
@@ -4612,7 +4612,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
+          "Value": "sha256-SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58="
         }
       ]
     },
@@ -4627,7 +4627,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54"
+          "Value": "275"
         },
         {
           "Name": "Content-Type",
@@ -4635,11 +4635,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4=\""
+          "Value": "\"SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 29 Mar 2025 20:33:45 GMT"
+          "Value": "Mon, 14 Apr 2025 17:00:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4649,7 +4649,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dMwpGmyPhzINLSTzzg8vSkrClHMTVLJenmTYBmR+vG4="
+          "Value": "sha256-SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58="
         }
       ]
     }
