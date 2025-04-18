@@ -42,3 +42,4 @@ wwwroot\bootstrap\js\bootstrap.js
 wwwroot\bootstrap\js\bootstrap.js.map
 wwwroot\bootstrap\js\bootstrap.min.js
 wwwroot\bootstrap\js\bootstrap.min.js.map
+wwwroot\css\site.css

@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "SrLZ0iFS7XRhKP+zPJOFew5wHNzbJeYjl5pqYCaqKls=",
-  "Source": "SupermarketManagementSystem",
-  "BasePath": "_content/SupermarketManagementSystem",
+  "Hash": "uQRs1Wqf7VprDXJeVawmqn0Hot3EBMivA8bMvgNZRWk=",
+  "Source": "WebApp",
+  "BasePath": "_content/WebApp",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "SupermarketManagementSystem\\wwwroot",
-      "Source": "SupermarketManagementSystem",
+      "Name": "WebApp\\wwwroot",
+      "Source": "WebApp",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -39,10 +39,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -60,10 +60,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -81,10 +81,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -102,10 +102,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -123,10 +123,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.rtl.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -144,10 +144,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -165,10 +165,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -186,10 +186,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -207,10 +207,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -228,10 +228,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -249,10 +249,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -270,10 +270,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -291,10 +291,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -312,10 +312,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -333,10 +333,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -354,10 +354,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -375,10 +375,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -396,10 +396,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -417,10 +417,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -438,10 +438,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -459,10 +459,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -480,10 +480,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -501,10 +501,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -522,10 +522,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -543,10 +543,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -564,10 +564,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -585,10 +585,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -606,10 +606,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -627,10 +627,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -648,10 +648,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -669,10 +669,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -690,10 +690,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -711,10 +711,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -732,10 +732,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -753,10 +753,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -774,10 +774,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.esm.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -795,10 +795,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.esm.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -816,10 +816,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -837,10 +837,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -858,10 +858,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -879,10 +879,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -900,10 +900,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -921,10 +921,10 @@
     },
     {
       "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\bootstrap\\js\\bootstrap.min.js.map",
-      "SourceId": "SupermarketManagementSystem",
+      "SourceId": "WebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
-      "BasePath": "_content/SupermarketManagementSystem",
+      "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -939,6 +939,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55llgsehnk",
+      "Integrity": "SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     }
   ],
   "Endpoints": [
@@ -4547,6 +4568,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.55llgsehnk.css",
+      "AssetFile": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 06:32:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55llgsehnk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\lushe\\OneDrive\\Documents\\C# Projects\\SuperMarketManagementSystem\\WebApp\\WebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 06:32:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SX7/30LfAWI7qn3HY6ogvm403Li9dIQe+Kqw8Gk1U58="
         }
       ]
     }
