@@ -1,6 +1,4 @@
-﻿using SupermarketManagementSystem.Models;
-using WebApp.Models;
-
+﻿using CoreBusiness;
 namespace SupermarketManagementSystem.ViewModels
 {
     public class ProductViewModel

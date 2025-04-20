@@ -7,6 +7,9 @@ using UseCases.CategoriesUsesCases;
 using UseCases.DataStorePluginInterfaces;
 using UseCases.Interfaces;
 using UseCases.ProductsUseCases;
+using Microsoft.AspNetCore.Identity;
+using WebApp.Data;
+using WebApp.Areas.Identity.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddDbContext<MarketContext>(option =>
@@ -14,12 +17,29 @@ var builder = WebApplication.CreateBuilder(args);
 //    option.UseSqlServer(builder.Configuration.GetConnectionString("MarketManagement"));
 //});
 
+builder.Services.AddDbContext<AccountContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("MarketManagement"));
+});
+
 builder.Services.AddDbContext<MarketContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("MarketManagement"));
 });
 
+builder.Services.AddDefaultIdentity<WebAppUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AccountContext>();
+
+builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAuthorization(options=>
+{
+    options.AddPolicy("Inventory",p=>p.RequireClaim("Position","Inventory"));
+    options.AddPolicy("Cashiers", p => p.RequireClaim("Position", "Cashier"));
+});
+
+
+
 builder.Services.AddTransient<ICategoryRepository, CategorySQLRepository>();
 builder.Services.AddTransient<IProductRepository, ProductSQLRepository>();
 builder.Services.AddTransient<ITransactionRepository, TransactionSQLRepository>();
@@ -47,6 +67,11 @@ builder.Services.AddTransient<ISearchTransactionsUseCase, SearchTransactionsUseC
 var app = builder.Build();
 app.UseStaticFiles();
 app.UseRouting();
+
+app.UseAuthentication();
+app.MapRazorPages();
+app.UseAuthorization();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

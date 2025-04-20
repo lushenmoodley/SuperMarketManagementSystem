@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebApp.Models;
+using CoreBusiness;
 using WebApp.ViewModels.Validations;
 
 namespace WebApp.ViewModels
@@ -16,5 +16,9 @@ namespace WebApp.ViewModels
         [Range(1,int.MaxValue)]
         [SalesViewModel_EnsurePropertyQuantity]
         public int QuantityToSell { get; set; }
+
+        public List<Transaction> Transactions { get; set; } = new List<Transaction>();
+
+
     }
 }
