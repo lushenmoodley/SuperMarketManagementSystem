@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using UseCases.Interfaces;
 using WebApp.Models;
 using WebApp.ViewModels;
 
 namespace WebApp.Controllers
 {
+
     public class TransactionsController : Controller
     {
         private readonly ISearchTransactionsUseCase searchTransactionsUseCase;
@@ -13,7 +15,7 @@ namespace WebApp.Controllers
         {
             this.searchTransactionsUseCase = searchTransactionsUseCase;
         }
-
+        [Authorize(Policy = "CashiersAndInventory")]
         public IActionResult Index()
         {
             TransactionViewModel transactionsViewModel = new TransactionViewModel();

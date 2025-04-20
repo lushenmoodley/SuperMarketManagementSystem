@@ -32,10 +32,35 @@ builder.Services.AddDefaultIdentity<WebAppUser>(options => options.SignIn.Requir
 builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddAuthorization(options=>
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.AddPolicy("Inventory", p => p.RequireClaim("Position", "Inventory"));
+//    options.AddPolicy("Cashiers", p => p.RequireClaim("Position", "Cashier"));
+//    options.AddPolicy("CashiersAndInventory", policy =>
+//    {
+//        policy.RequireAssertion(context =>
+//            context.User.HasClaim(c =>
+//                c.Type == "Position" &&
+//                (c.Value == "Cashier" || c.Value == "Inventory" || c.Value == "CashiersAndInventory")));
+//    });
+//});
+
+builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("Inventory",p=>p.RequireClaim("Position","Inventory"));
-    options.AddPolicy("Cashiers", p => p.RequireClaim("Position", "Cashier"));
+    options.AddPolicy("Inventory", p => p.RequireClaim("position", "Inventory"));
+    options.AddPolicy("Cashiers", p => p.RequireClaim("position", "Cashier"));
+    options.AddPolicy("CashiersAndInventory", policy =>
+    {
+        policy.RequireAssertion(context =>
+        {
+            var claims = context.User.FindAll("position").Select(c => c.Value).ToList();
+
+            bool hasBothRoles = claims.Contains("Cashier") && claims.Contains("Inventory");
+            bool hasCombinedClaim = claims.Contains("CashiersAndInventory");
+
+            return hasBothRoles || hasCombinedClaim;
+        });
+    });
 });
 
 
@@ -69,8 +94,9 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();
-app.MapRazorPages();
 app.UseAuthorization();
+app.MapRazorPages();
+
 
 app.MapControllerRoute(
     name: "default",

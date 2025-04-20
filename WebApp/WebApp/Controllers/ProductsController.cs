@@ -11,7 +11,7 @@ using WebApp.ViewModels;
 
 namespace WebApp.Controllers
 {
-    [Authorize(Policy = "Inventory")]
+   
     public class ProductsController : Controller
     {
         private readonly IAddProductUseCase addProductUseCase;
@@ -36,7 +36,7 @@ namespace WebApp.Controllers
             this.viewProductsUseCase = viewProductsUseCase;
             this.viewCategoriesUseCase = viewCategoriesUseCase;
         }
-
+        [Authorize(Policy = "Inventory")]
         public IActionResult Index()
         {
             var products = viewProductsUseCase.Execute(loadCategory: true);

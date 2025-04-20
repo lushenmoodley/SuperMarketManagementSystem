@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WebApp.Controllers
 {
-    [Authorize(Policy ="Inventory")]
+    
 
     public class CategoriesController : Controller
     {
@@ -32,6 +32,7 @@ namespace WebApp.Controllers
             this.deleteCategoryUseCase = deleteCategoryUseCase;
         }
 
+        [Authorize(Policy = "Inventory")]
         public IActionResult Index()
         {
             var categories = viewCategoriesUseCase.Execute();
