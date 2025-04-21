@@ -4,9 +4,12 @@ using UseCases.Interfaces;
 using CoreBusiness;
 using UseCases.CategoriesUsesCases;
 using UseCases.CategoriesUseCases;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApp.Controllers
 {
+    
+
     public class CategoriesController : Controller
     {
         private readonly IViewCategoriesUseCase viewCategoriesUseCase;
@@ -29,6 +32,7 @@ namespace WebApp.Controllers
             this.deleteCategoryUseCase = deleteCategoryUseCase;
         }
 
+        [Authorize(Policy = "Inventory")]
         public IActionResult Index()
         {
             var categories = viewCategoriesUseCase.Execute();

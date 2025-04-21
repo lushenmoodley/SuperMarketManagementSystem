@@ -1,11 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using WebApp.Models;
+using CoreBusiness;
 
 namespace WebApp.ViewModels
 {
     public class TransactionViewModel
     {
-        [Display(Name ="Cashier Name")]
+        [Display(Name = "Cashier Name")]
         public string? CashierName { get; set; }
 
         [Display(Name = "Start Date")]
@@ -14,6 +14,6 @@ namespace WebApp.ViewModels
         [Display(Name = "End Date")]
         public DateTime EndDate { get; set; } = DateTime.Today;
 
-        public IEnumerable<Transaction> Transactions { get; set; } = new List<Transaction>();
+        public List<Transaction> Transactions { get; set; } = new List<Transaction>();
     }
 }

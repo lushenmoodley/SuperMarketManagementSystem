@@ -1,24 +1,55 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using SupermarketManagementSystem.Models;
+﻿using CoreBusiness;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SupermarketManagementSystem.ViewModels;
-using WebApp.Models;
+using UseCases;
+using UseCases.CategoriesUseCases;
+using UseCases.DataStorePluginInterfaces;
+using UseCases.Interfaces;
+using UseCases.ProductsUseCases;
+using WebApp.ViewModels;
 
-namespace SupermarketManagementSystem.Controllers
+namespace WebApp.Controllers
 {
+   
     public class ProductsController : Controller
     {
+        private readonly IAddProductUseCase addProductUseCase;
+        private readonly IEditProductUseCase editProductUseCase;
+        private readonly IDeleteProductUseCase deleteProductUseCase;
+        private readonly IViewSelectedProductUseCase viewSelectedProductUseCase;
+        private readonly IViewProductsUseCase viewProductsUseCase;
+        private readonly IViewCategoriesUseCase viewCategoriesUseCase;
+
+        public ProductsController(
+            IAddProductUseCase addProductUseCase,
+            IEditProductUseCase editProductUseCase,
+            IDeleteProductUseCase deleteProductUseCase,
+            IViewSelectedProductUseCase viewSelectedProductUseCase,
+            IViewProductsUseCase viewProductsUseCase,
+            IViewCategoriesUseCase viewCategoriesUseCase)
+        {
+            this.addProductUseCase = addProductUseCase;
+            this.editProductUseCase = editProductUseCase;
+            this.deleteProductUseCase = deleteProductUseCase;
+            this.viewSelectedProductUseCase = viewSelectedProductUseCase;
+            this.viewProductsUseCase = viewProductsUseCase;
+            this.viewCategoriesUseCase = viewCategoriesUseCase;
+        }
+        [Authorize(Policy = "Inventory")]
         public IActionResult Index()
         {
-            var products = ProductsRepository.GetProducts(loadCategory:true);
+            var products = viewProductsUseCase.Execute(loadCategory: true);
             return View(products);
         }
 
         public IActionResult Add()
         {
-            ViewBag.Action = "Add";
+            ViewBag.Action = "add";
+
             var productViewModel = new ProductViewModel
             {
-                Categories = CategoriesRepository.GetCategories()
+                Categories = viewCategoriesUseCase.Execute()
             };
 
             return View(productViewModel);
@@ -29,25 +60,25 @@ namespace SupermarketManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-
-
-                ProductsRepository.AddProduct(productViewModel.Product);
+                addProductUseCase.Execute(productViewModel.Product);
                 return RedirectToAction(nameof(Index));
             }
-          
-            ViewBag.Action = "Add";
-            productViewModel.Categories = CategoriesRepository.GetCategories();
+
+            ViewBag.Action = "add";
+            productViewModel.Categories = viewCategoriesUseCase.Execute();
             return View(productViewModel);
         }
 
         public IActionResult Edit(int id)
         {
-            ViewBag.Action = "Edit";
+            ViewBag.Action = "edit";
+
             var productViewModel = new ProductViewModel
             {
-                Product = ProductsRepository.GetProductById(id) ?? new Product(),
-                Categories = CategoriesRepository.GetCategories()
+                Product = viewSelectedProductUseCase.Execute(id) ?? new Product(),
+                Categories = viewCategoriesUseCase.Execute()
             };
+
             return View(productViewModel);
         }
 
@@ -56,26 +87,19 @@ namespace SupermarketManagementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                ProductsRepository.UpdateProduct(productViewModel.Product.ProductId, productViewModel.Product);
+                editProductUseCase.Execute(productViewModel.Product.ProductId, productViewModel.Product);
                 return RedirectToAction(nameof(Index));
             }
-            
-            ViewBag.Action = "Edit";
-            productViewModel.Categories = CategoriesRepository.GetCategories();
+
+            ViewBag.Action = "edit";
+            productViewModel.Categories = viewCategoriesUseCase.Execute();
             return View(productViewModel);
         }
 
         public IActionResult Delete(int id)
         {
-            ProductsRepository.DeleteProduct(id);
+            deleteProductUseCase.Execute(id);
             return RedirectToAction(nameof(Index));
-        }
-
-        public IActionResult ProductsByCategoryPartial(int CategoryId)
-        {
-            var products = ProductsRepository.GetProductsByCategoryId(CategoryId);
-
-            return PartialView("_Products", products);
         }
     }
 }

@@ -54,7 +54,14 @@ namespace Plugins.DataStore.SQL
 
         public IEnumerable<Transaction> Search(string cashierName, DateTime startDate, DateTime dateTime)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(cashierName))
+            {
+                return db.Transactions.Where(x => x.TimeStamp >= startDate.Date && x.TimeStamp <= dateTime.Date.AddDays(1).Date);
+            }
+            else
+            {
+                return db.Transactions.Where(x => x.CashierName.ToLower().Contains(cashierName.ToLower()) && x.TimeStamp >= startDate.Date && x.TimeStamp <= dateTime.Date.AddDays(1).Date);
+            }
         }
     }
 }

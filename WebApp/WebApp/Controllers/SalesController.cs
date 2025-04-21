@@ -1,61 +1,79 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SupermarketManagementSystem.Models;
-using WebApp.Models;
+using CoreBusiness;
 using WebApp.ViewModels;
+using UseCases.CategoriesUseCases;
+using UseCases;
+using Microsoft.AspNetCore.Authorization;
+using UseCases.ProductsUseCases;
+using UseCases.Interfaces;
 
 namespace WebApp.Controllers
 {
+    [Authorize(Policy = "Cashiers")]
     public class SalesController : Controller
     {
-        public IActionResult Index()
+        private readonly IViewCategoriesUseCase viewCategoriesUseCase;
+        private readonly IViewSelectedProductUseCase viewSelectedProductUseCase;
+        private readonly ISellProductUseCase sellProductUseCase;
+        private readonly IViewProductsInCategoryUseCase viewProductsInCategoryUseCase;
+        private readonly ISearchTransactionsUseCase searchTransactionsUseCase;
+
+        public SalesController(
+          IViewCategoriesUseCase viewCategoriesUseCase,
+          IViewSelectedProductUseCase viewSelectedProductUseCase,
+          ISellProductUseCase sellProductUseCase,
+          IViewProductsInCategoryUseCase viewProductsInCategoryUseCase,
+          ISearchTransactionsUseCase searchTransactionsUseCase 
+      )
         {
+            this.viewCategoriesUseCase = viewCategoriesUseCase;
+            this.viewSelectedProductUseCase = viewSelectedProductUseCase;
+            this.sellProductUseCase = sellProductUseCase;
+            this.viewProductsInCategoryUseCase = viewProductsInCategoryUseCase;
+            this.searchTransactionsUseCase = searchTransactionsUseCase; 
+        }
+        public IActionResult Index(string username)
+        {
+            var transactions = searchTransactionsUseCase.Execute(username, DateTime.Now.Date, DateTime.Now.Date);
+
             var salesViewModel = new SalesViewModel
             {
-                Categories = CategoriesRepository.GetCategories()
+                Categories = viewCategoriesUseCase.Execute(),
+                Transactions = transactions.ToList()
             };
-
 
             return View(salesViewModel);
         }
 
         public IActionResult SellProductPartial(int productId)
         {
-            var product = ProductsRepository.GetProductById(productId);
-
+            var product = viewSelectedProductUseCase.Execute(productId);
             return PartialView("_SellProduct", product);
         }
-        
+
         public IActionResult Sell(SalesViewModel salesViewModel)
         {
-           
-                var prod = ProductsRepository.GetProductById(salesViewModel.SelectedProductId);
-
-                if(prod!=null)
-                {
-                    TransactionRepository.Add("Cashier 1", salesViewModel.SelectedProductId, prod.Name, prod.Price.HasValue ? prod.Price.Value : 0,
-                        prod.Quantity.HasValue ? prod.Quantity.Value : 0, salesViewModel.QuantityToSell);
-
-                    prod.Quantity -= salesViewModel.QuantityToSell;
-                    ProductsRepository.UpdateProduct(salesViewModel.SelectedProductId, prod);
-                }
-
-
-            
-
-            var product = ProductsRepository.GetProductById(salesViewModel.SelectedProductId);
-
-            if(product.Categoryid==null)
+            if (ModelState.IsValid)
             {
-                salesViewModel.SelectedCategoryId = 0;
+                // Sell the product
+                sellProductUseCase.Execute(
+                   User?.Identity?.Name,
+                    salesViewModel.SelectedProductId,
+                    salesViewModel.QuantityToSell);
             }
-            else
-                salesViewModel.SelectedCategoryId = product.Categoryid;
 
-            salesViewModel.Categories = CategoriesRepository.GetCategories();
-
+            var product = viewSelectedProductUseCase.Execute(salesViewModel.SelectedProductId);
+            salesViewModel.SelectedCategoryId = (product?.CategoryId == null) ? 0 : product.CategoryId.Value;
+            salesViewModel.Categories = viewCategoriesUseCase.Execute();
 
             return View("Index", salesViewModel);
         }
 
+        public IActionResult ProductsByCategoryPartial(int categoryId)
+        {
+            var products = viewProductsInCategoryUseCase.Execute(categoryId);
+
+            return PartialView("_Products", products);
+        }
     }
 }

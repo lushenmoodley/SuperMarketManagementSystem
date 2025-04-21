@@ -6,17 +6,20 @@
 
         public static IEnumerable<Transaction> GetByDayAndCashier(string cashierName, DateTime date)
         {
-            if (string.IsNullOrEmpty(cashierName))
-            {
-                return transactions.Where(x => x.TimeStamp.Date == date.Date);
-            }
-            else
-            {
-                return transactions.Where(x =>
-                    x.CashierName.ToLower().Contains(cashierName.ToLower()) &&
-                    x.TimeStamp.Date == date.Date
-                );
-            }
+            //if (string.IsNullOrEmpty(cashierName))
+            //{
+            //    return transactions.Where(x => x.TimeStamp.Date == date.Date);
+            //}
+            //else
+            //{
+            //    return transactions.Where(x =>
+            //        x.CashierName.ToLower().Contains(cashierName.ToLower()) &&
+            //        x.TimeStamp.Date == date.Date
+            //    );
+            //}
+
+            return transactions.Where(x => x.CashierName.ToLower().Contains(cashierName.ToLower()) && x.TimeStamp.Date == date.Date);
+
         }
 
         public static IEnumerable<Transaction> Search(string cashierName,DateTime startDate,DateTime endDate)
